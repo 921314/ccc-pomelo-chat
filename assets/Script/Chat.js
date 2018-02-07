@@ -18,30 +18,6 @@ cc.Class({
         listRoot: {
             default: null,
             type: cc.Node,
-        },
-        chatListRoot: {
-            default: null,
-            type: cc.Node,
-        },
-        tipRoot: {
-            default: null,
-            type: cc.Node,
-        },
-        tipLabel: {
-            default: null,
-            type: cc.Label,
-        },
-        toUserLabel: {
-            default: null,
-            type: cc.Label,
-        },
-        curUserLabel: {
-            default: null,
-            type: cc.Label,
-        },
-        curInput: {
-            default: null,
-            type: cc.EditBox,
         }
     },
 
@@ -50,141 +26,12 @@ cc.Class({
     // onLoad () {},
 
     start () {
-        //wait message from the server.
-        var self = this;
-        pomelo.on('onChat', function(data) {
-            cc.log("onChat", data.from, data.target, data.msg);
-            self.addMessage(data.from, data.target, data.msg);
-            // if(data.from !== RoomInfo.myName)
-                self.tip(data.from);
-        });
-
-        //update user list
-        pomelo.on('onAdd', function(data) {
-            var user = data.user;
-            cc.log('online', user);
-            var list = RoomInfo.players;
-            var info = {};
-            info.name = user;
-            list.push(info);
-            self.listRoot.getComponent("ListViewCtrl").refreshList();
-        });
-
-        //update user list
-        pomelo.on('onLeave', function(data) {
-            var user = data.user;
-            cc.log('offline', user);
-            var list = RoomInfo.players;
-            var index;
-            for (i = 0; i < list.length; i++) {
-                var info = list[i];
-                if (info.name == user)
-                {
-                    index = i;
-                    break;
-                }
-            }
-            if (index) {
-                cc.log("onLeave", user, index);
-                list.splice(index, 1);
-            }
-            self.listRoot.getComponent("ListViewCtrl").refreshList();
-            if (user == RoomInfo.targetName) {
-                self.tip("你的私聊对象下线了");
-            }
-        });
-
-        //handle disconect message, occours when the client is disconnect with servers
-        pomelo.on('disconnect', function(reason) {
-            cc.log("on disconnect", reason);
-        });
-
-        this.tipRoot.active = false;
-
-        this.curUserLabel.string = RoomInfo.myName;
-        this.toUserLabel.string = "";
-        cc.log("RoomInfo.targetName", RoomInfo.targetName, RoomInfo.targetName == "*");
-        if (RoomInfo.targetName == "*") {
-            cc.log("!!!!!");
-        }
-        this.setTargetName("所有人");
-        //init list
-        this.listRoot.getComponent("ListViewCtrl").refreshList();
-
-        this.tip();
+        cc.log("!!!")
+        Utils.printObj(RoomInfo);
+        this.listRoot.getComponent("ListViewCtrl").printSome();
     },
 
     update (dt) {
     
-    },
-
-    onBtnSendClick: function() {
-        var route = "chat.chatHandler.send";
-        var msg = this.curInput.string;
-
-        var list = RoomInfo.players;
-        var index;
-        for (i = 0; i < list.length; i++) {
-            var info = list[i];
-            if (info.name == RoomInfo.targetName)
-            {
-                index = i;
-                break;
-            }
-        }
-        cc.log("RoomInfo.targetName", RoomInfo.targetName);
-        cc.log(RoomInfo.targetName === '*');
-        cc.log("???!@#!@#?!@#?!@?#?");
-        cc.log(RoomInfo.targetName === "*");
-        if (RoomInfo.targetName != "*" && !index) {
-            this.tip(RoomInfo.targetName + "不在线!");
-            return;   
-        }
-        
-        var self = this;
-        var target = RoomInfo.targetName;
-        var from = RoomInfo.myName;
-        cc.log(RoomInfo.roomId, from, target, msg);
-		if(msg !== "") {
-            var reqData = {
-				rid: RoomInfo.roomId,
-				content: msg,
-				from: from,
-				target: target,
-            };
-            Utils.printObj(reqData);
-			pomelo.request(route, reqData, function(data) {
-                // cc.log(data);
-                Utils.printObj(data);
-                self.curInput.string = "";
-                if (target != '*' && target != RoomInfo.myName) {
-                    self.addMessage(from, target, msg);
-                }
-			});
-		}
-    },
-
-    addMessage: function(from, target, content) {
-        var info = {};
-        info.msg = from + " 对 " + target + " 说 : " + content;
-        RoomInfo.chatLogs.push(info);
-        this.chatListRoot.getComponent("ChatListViewCtrl").refreshList();
-    },
-
-    setTargetName: function(toName) {
-        this.toUserLabel.string = toName;
-    },
-
-    tip: function(msg) {
-        this.tipRoot.active = true;
-        if (msg) {
-            this.tipLabel.string = msg;
-        } else {
-            this.tipLabel.string = "您有新的消息！";
-        }
-        var act1 = cc.fadeIn(1.0);
-        var act2 = cc.fadeOut(1.0);
-        var seq = cc.sequence(act1, act2);
-        this.tipRoot.runAction(seq);
     },
 });
