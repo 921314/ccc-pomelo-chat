@@ -1,0 +1,206 @@
+2018-02-08T01:26:33.644Z - normal: Load ~/.CocosCreator/settings.json
+2018-02-08T01:26:33.649Z - normal: checking language setting...
+2018-02-08T01:26:33.649Z - normal: Language: zh
+2018-02-08T01:26:34.268Z - success: protocol editor-framework registered
+2018-02-08T01:26:34.268Z - success: protocol app registered
+2018-02-08T01:26:34.268Z - success: protocol theme registered
+2018-02-08T01:26:34.269Z - success: protocol packages registered
+2018-02-08T01:26:34.269Z - success: protocol unpack registerred
+2018-02-08T01:26:34.269Z - success: protocol disable-commonjs registerred
+2018-02-08T01:26:34.581Z - normal: connected!
+2018-02-08T01:26:34.583Z - normal: Check project /Users/junhai/Documents/pomelo/ccc/CCCPomelo
+2018-02-08T01:26:34.586Z - normal: Initializing Cocos2d
+2018-02-08T01:26:34.764Z - normal: Initializing Asset Database
+2018-02-08T01:26:34.788Z - success: protocol uuid registerred
+2018-02-08T01:26:34.788Z - success: protocol db registerred
+2018-02-08T01:26:34.788Z - success: protocol thumbnail registerred
+2018-02-08T01:26:34.789Z - normal: Loading editor/builtin packages
+2018-02-08T01:26:34.805Z - success: anysdk loaded
+2018-02-08T01:26:34.896Z - success: assets loaded
+2018-02-08T01:26:34.899Z - success: builder loaded
+2018-02-08T01:26:34.901Z - success: cocos-analytics loaded
+2018-02-08T01:26:34.905Z - success: console loaded
+2018-02-08T01:26:34.909Z - success: hierarchy loaded
+2018-02-08T01:26:34.913Z - success: inspector loaded
+2018-02-08T01:26:34.914Z - success: keystore loaded
+2018-02-08T01:26:34.918Z - success: node-library loaded
+2018-02-08T01:26:34.920Z - success: package-asset loaded
+2018-02-08T01:26:34.922Z - success: preferences loaded
+2018-02-08T01:26:34.925Z - success: project-exporter loaded
+2018-02-08T01:26:34.938Z - success: project-importer loaded
+2018-02-08T01:26:34.941Z - success: project-settings loaded
+2018-02-08T01:26:34.945Z - success: ui-kit loaded
+2018-02-08T01:26:34.949Z - success: ui-grid loaded
+2018-02-08T01:26:34.954Z - success: scene loaded
+2018-02-08T01:26:34.955Z - success: sprite-editor loaded
+2018-02-08T01:26:34.959Z - success: store loaded
+2018-02-08T01:26:34.965Z - success: timeline loaded
+2018-02-08T01:26:34.965Z - normal: Loading builtin packages
+2018-02-08T01:26:34.969Z - success: asset-db-debugger loaded
+2018-02-08T01:26:34.970Z - success: color-picker loaded
+2018-02-08T01:26:34.973Z - success: package-manager loaded
+2018-02-08T01:26:34.978Z - success: sdkbox loaded
+2018-02-08T01:26:34.982Z - success: tester loaded
+2018-02-08T01:26:34.987Z - success: ui-kit-preview-extra loaded
+2018-02-08T01:26:34.991Z - success: ui-kit-preview loaded
+2018-02-08T01:26:34.994Z - success: ui-tree loaded
+2018-02-08T01:26:35.938Z - normal: Initializing project /Users/junhai/Documents/pomelo/ccc/CCCPomelo
+2018-02-08T01:26:35.939Z - normal: Loading packages
+2018-02-08T01:26:35.944Z - normal: Watching packages
+2018-02-08T01:26:35.958Z - normal: Run Application
+2018-02-08T01:26:37.640Z - success: preview server running at http://localhost:7456
+2018-02-08T01:26:42.419Z - normal: 1.8.0
+2018-02-08T01:27:00.508Z - normal: Simulator: WORKAREA WIDTH 1280.00, HEIGHT 687.00
+2018-02-08T01:27:00.509Z - normal: Simulator: FRAME SCALE = 1.00
+2018-02-08T01:27:00.520Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-02-08T01:27:00.638Z - normal: Simulator: 
+2018-02-08T01:27:00.639Z - normal: Simulator: {
+2018-02-08T01:27:00.640Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-02-08T01:27:00.644Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-02-08T01:27:00.644Z - normal: Simulator: 	cocos2d.x.version: 1.7.0
+2018-02-08T01:27:00.646Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2018-02-08T01:27:00.647Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-02-08T01:27:00.650Z - normal: Simulator: 	gl.renderer: Intel(R) Iris(TM) Graphics 6100
+2018-02-08T01:27:00.650Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-02-08T01:27:00.651Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-02-08T01:27:00.653Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-02-08T01:27:00.655Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-02-08T01:27:00.656Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-02-08T01:27:00.657Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-02-08T01:27:00.657Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-02-08T01:27:00.660Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-02-08T01:27:00.662Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-02-08T01:27:00.662Z - normal: Simulator: 	gl.version: 2.1 INTEL-10.14.73
+2018-02-08T01:27:00.663Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-02-08T01:27:00.663Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-02-08T01:27:00.665Z - normal: Simulator: }
+2018-02-08T01:27:00.667Z - normal: Simulator: 
+2018-02-08T01:27:00.668Z - normal: Simulator: 
+2018-02-08T01:27:00.669Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2018-02-08T01:27:00.678Z - normal: Simulator: Project Config:
+2018-02-08T01:27:00.678Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-02-08T01:27:00.679Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-02-08T01:27:00.679Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-02-08T01:27:00.680Z - normal: Simulator:     frame size: 960 x 640
+2018-02-08T01:27:00.680Z - normal: Simulator:     frame scale: 1.00
+2018-02-08T01:27:00.680Z - normal: Simulator:     show console: NO
+2018-02-08T01:27:00.681Z - normal: Simulator:     write debug log: NO ()
+2018-02-08T01:27:00.684Z - normal: Simulator:     listen: 
+2018-02-08T01:27:00.685Z - normal: Simulator:     debugger: none
+2018-02-08T01:27:00.685Z - normal: Simulator:     add searching path:
+2018-02-08T01:27:00.686Z - normal: Simulator: 
+2018-02-08T01:27:00.686Z - normal: Simulator: 
+2018-02-08T01:27:00.687Z - normal: Simulator: 
+2018-02-08T01:27:00.687Z - normal: Simulator: ------------------------------------------------
+2018-02-08T01:27:00.688Z - normal: Simulator: LOAD Js FILE: main.js
+2018-02-08T01:27:00.688Z - normal: Simulator: ------------------------------------------------
+2018-02-08T01:27:00.689Z - normal: Simulator: Initializing JavaScriptCore 
+2018-02-08T01:27:00.821Z - normal: Simulator: JS: Cocos2d-x-lite v1.7.0
+2018-02-08T01:27:01.110Z - normal: Simulator: iShow!
+2018-02-08T01:27:01.285Z - normal: Simulator: JS: InitScene: 3.9329999999999927ms
+2018-02-08T01:27:01.285Z - normal: Simulator: JS: AutoRelease: 0.21800000000007458ms
+2018-02-08T01:27:01.285Z - normal: Simulator: JS: Destroy: 0.08699999999998909ms
+2018-02-08T01:27:01.286Z - normal: Simulator: JS: AttachPersist: 0.02400000000000091ms
+2018-02-08T01:27:01.341Z - normal: Simulator: setReturnType not implemented
+2018-02-08T01:27:01.341Z - normal: Simulator: [Edit text] content size = (160.000000, 40.000000)
+2018-02-08T01:27:01.345Z - normal: Simulator: setReturnType not implemented
+2018-02-08T01:27:01.346Z - normal: Simulator: [Edit text] content size = (160.000000, 40.000000)
+2018-02-08T01:27:01.347Z - normal: Simulator: [Edit text] content size = (160.000000, 40.000000)
+2018-02-08T01:27:01.347Z - normal: Simulator: setReturnType not implemented
+2018-02-08T01:27:01.360Z - normal: Simulator: setReturnType not implemented
+2018-02-08T01:27:01.361Z - normal: Simulator: [Edit text] content size = (160.000000, 40.000000)
+2018-02-08T01:27:01.363Z - normal: Simulator: setReturnType not implemented
+2018-02-08T01:27:01.363Z - normal: Simulator: [Edit text] content size = (160.000000, 40.000000)
+2018-02-08T01:27:01.364Z - normal: Simulator: [Edit text] content size = (160.000000, 40.000000)
+2018-02-08T01:27:01.365Z - normal: Simulator: setReturnType not implemented
+2018-02-08T01:27:01.365Z - normal: Simulator: setReturnType not implemented
+2018-02-08T01:27:01.366Z - normal: Simulator: [Edit text] content size = (160.000000, 40.000000)
+2018-02-08T01:27:01.366Z - normal: Simulator: setReturnType not implemented
+2018-02-08T01:27:01.366Z - normal: Simulator: [Edit text] content size = (160.000000, 40.000000)
+2018-02-08T01:27:01.367Z - normal: Simulator: [Edit text] content size = (160.000000, 40.000000)
+2018-02-08T01:27:01.367Z - normal: Simulator: setReturnType not implemented
+2018-02-08T01:27:01.367Z - normal: Simulator: setReturnType not implemented
+2018-02-08T01:27:01.368Z - normal: Simulator: [Edit text] content size = (160.000000, 40.000000)
+2018-02-08T01:27:01.368Z - normal: Simulator: setReturnType not implemented
+2018-02-08T01:27:01.368Z - normal: Simulator: [Edit text] content size = (160.000000, 40.000000)
+2018-02-08T01:27:01.369Z - normal: Simulator: [Edit text] content size = (160.000000, 40.000000)
+2018-02-08T01:27:01.370Z - normal: Simulator: setReturnType not implemented
+2018-02-08T01:27:01.394Z - normal: Simulator: JS: Activate: 80.35199999999998ms
+2018-02-08T01:27:01.395Z - normal: Simulator: [Edit text] content size = (160.000000, 40.000000)
+2018-02-08T01:27:01.397Z - normal: Simulator: [Edit text] content size = (160.000000, 40.000000)
+2018-02-08T01:27:01.397Z - normal: Simulator: [Edit text] content size = (160.000000, 40.000000)
+2018-02-08T01:27:01.402Z - normal: Simulator: [Edit text] content size = (160.000000, 40.000000)
+2018-02-08T01:27:21.139Z - normal: Simulator: JS: 127.0.0.1 3014
+2018-02-08T01:27:21.139Z - normal: Simulator: JS: 123 1
+2018-02-08T01:27:21.140Z - normal: Simulator: JS: connect to ws://127.0.0.1:3014
+2018-02-08T01:27:21.172Z - normal: Simulator: JS: connected!!! 127.0.0.1 3014
+2018-02-08T01:27:21.173Z - normal: Simulator: JS: request to gateHandler
+2018-02-08T01:27:21.196Z - normal: Simulator: JS: get ip and port from gate :  127.0.0.1 3050
+2018-02-08T01:27:21.197Z - normal: Simulator: JS: connect to ws://127.0.0.1:3050
+2018-02-08T01:27:21.226Z - normal: Simulator: JS: connect to 127.0.0.1 3050
+2018-02-08T01:27:21.291Z - normal: Simulator: JS: get data
+2018-02-08T01:27:21.291Z - normal: Simulator: JS: obj : {
+2018-02-08T01:27:21.291Z - normal: Simulator: JS: users = 123
+2018-02-08T01:27:21.292Z - normal: Simulator: 
+2018-02-08T01:27:21.292Z - normal: Simulator: JS: }
+2018-02-08T01:27:21.344Z - normal: Simulator: JS: LoadScene 32cde7f8-66b2-48ad-b76a-34248302fd5b: 53.13799999999901ms
+2018-02-08T01:27:21.347Z - normal: Simulator: JS: InitScene: 3.113999999997759ms
+2018-02-08T01:27:21.347Z - normal: Simulator: JS: AutoRelease: 0.01600000000325963ms
+2018-02-08T01:27:21.357Z - normal: Simulator: JS: Destroy: 7.913000000000466ms
+2018-02-08T01:27:21.358Z - normal: Simulator: JS: AttachPersist: 0.0030000000006111804ms
+2018-02-08T01:27:21.361Z - normal: Simulator: setReturnType not implemented
+2018-02-08T01:27:21.366Z - normal: Simulator: [Edit text] content size = (160.000000, 40.000000)
+2018-02-08T01:27:21.366Z - normal: Simulator: setReturnType not implemented
+2018-02-08T01:27:21.367Z - normal: Simulator: [Edit text] content size = (160.000000, 40.000000)
+2018-02-08T01:27:21.370Z - normal: Simulator: [Edit text] content size = (480.000000, 40.000000)
+2018-02-08T01:27:21.371Z - normal: Simulator: setReturnType not implemented
+2018-02-08T01:27:21.394Z - normal: Simulator: JS: Activate: 39.397000000000844ms
+2018-02-08T01:27:21.398Z - normal: Simulator: JS: RoomInfo.targetName * true
+2018-02-08T01:27:21.398Z - normal: Simulator: JS: !!!!!
+2018-02-08T01:27:21.399Z - normal: Simulator: JS: refreshList 1 0
+2018-02-08T01:27:21.400Z - normal: Simulator: JS: 123 undefined
+2018-02-08T01:27:21.415Z - normal: Simulator: JS: -66
+2018-02-08T01:27:21.425Z - normal: Simulator: [Edit text] content size = (480.000000, 40.000000)
+2018-02-08T01:27:24.024Z - normal: Simulator: JS: RoomInfo.targetName *
+2018-02-08T01:27:24.025Z - normal: Simulator: JS: true
+2018-02-08T01:27:24.025Z - normal: Simulator: JS: ???!@#!@#?!@#?!@?#?
+2018-02-08T01:27:24.026Z - normal: Simulator: JS: true
+2018-02-08T01:27:24.026Z - normal: Simulator: JS: 1 123 * 1111
+2018-02-08T01:27:24.027Z - normal: Simulator: JS: obj : {
+2018-02-08T01:27:24.027Z - normal: Simulator: JS: rid = 1
+2018-02-08T01:27:24.028Z - normal: Simulator: content = 1111
+2018-02-08T01:27:24.028Z - normal: Simulator: from = 123
+2018-02-08T01:27:24.029Z - normal: Simulator: target = *
+2018-02-08T01:27:24.029Z - normal: Simulator: 
+2018-02-08T01:27:24.030Z - normal: Simulator: JS: }
+2018-02-08T01:27:24.051Z - normal: Simulator: JS: obj : {
+2018-02-08T01:27:24.052Z - normal: Simulator: JS: 
+2018-02-08T01:27:24.053Z - normal: Simulator: JS: }
+2018-02-08T01:27:24.059Z - normal: Simulator: JS: onChat 123 * 1111
+2018-02-08T01:27:24.062Z - normal: Simulator: JS: -60
+2018-02-08T01:27:26.216Z - normal: Simulator: JS: 1 123 undefined
+2018-02-08T01:27:26.216Z - normal: Simulator: JS: setEnabled false
+2018-02-08T01:27:28.043Z - normal: Simulator: JS: RoomInfo.targetName 123
+2018-02-08T01:27:28.043Z - normal: Simulator: JS: false
+2018-02-08T01:27:28.044Z - normal: Simulator: JS: ???!@#!@#?!@#?!@?#?
+2018-02-08T01:27:28.044Z - normal: Simulator: JS: false
+2018-02-08T01:27:29.243Z - normal: Simulator: JS: RoomInfo.targetName 123
+2018-02-08T01:27:29.244Z - normal: Simulator: JS: false
+2018-02-08T01:27:29.244Z - normal: Simulator: JS: ???!@#!@#?!@#?!@?#?
+2018-02-08T01:27:29.246Z - normal: Simulator: JS: false
+2018-02-08T01:27:33.344Z - normal: Simulator: JS: RoomInfo.targetName 123
+2018-02-08T01:27:33.345Z - normal: Simulator: JS: false
+2018-02-08T01:27:33.346Z - normal: Simulator: JS: ???!@#!@#?!@#?!@?#?
+2018-02-08T01:27:33.346Z - normal: Simulator: JS: false
+2018-02-08T01:27:34.129Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2018-02-08T01:27:34.130Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 179
+2018-02-08T01:27:34.135Z - normal: Simulator: GC end ..., (Native -> JS map) count: 148
+2018-02-08T01:27:34.137Z - normal: Simulator: setReturnType not implemented
+2018-02-08T01:27:34.138Z - normal: Simulator: setReturnType not implemented
+2018-02-08T01:27:34.138Z - normal: Simulator: setReturnType not implemented
+2018-02-08T01:27:34.138Z - normal: Simulator: setReturnType not implemented
+2018-02-08T01:27:34.139Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 148
+2018-02-08T01:27:34.149Z - normal: Simulator: GC end ..., (Native -> JS map) count: 148
+2018-02-08T01:27:34.150Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 148
+2018-02-08T01:27:34.155Z - normal: Simulator: GC end ..., (Native -> JS map) count: 148
+2018-02-08T01:27:34.169Z - normal: Simulator: ScriptEngine::cleanup end ...

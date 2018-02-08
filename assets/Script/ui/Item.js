@@ -6,17 +6,51 @@ cc.Class({
             default: null,
             type: cc.Label
         },
-        itemID: 0
+        button: {
+            default: null,
+            type: cc.Button,
+        },
+        itemID: 0,
+        itemName: "",
+        callback: null,
+    },
+
+    setEnabled: function(bl) {
+        cc.log("setEnabled", bl);
+        this.button.interactable = bl;
+    },
+
+    onItemClicked() {
+        if (this.callback) {
+            this.callback(this);
+        }
     },
     
     onLoad: function () {
-        this.node.on('touchend', function () {
-            console.log("Item " + this.itemID + ' clicked');
-        }, this);
+        // this.node.enableAutoGrayEffect = false;
+        // this.node.on('touchend', function () {
+        //     if (this.callback) {
+        //         this.callback(this);
+        //     }
+        //     // console.log("Item " + this.itemID + ' clicked');
+        // }, this);
     },
 
-    updateItem: function(tmplId, itemId) {
-        this.itemID = itemId;
-        this.label.string = "item-" + itemId;
+    updateItem: function(idx, name) {
+        this.itemID = idx;
+        this.itemName = name;
+        this.label.string = name + '(' + idx + ')';
     },
+
+    setClickCallback: function(cb) {
+        this.callback = cb;
+    },
+
+    getName: function() {
+        return this.itemName;
+    },
+
+    getID: function() {
+        return this.itemID;
+    }
 });

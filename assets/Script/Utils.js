@@ -1,7 +1,7 @@
 
 function printObj(obj) {
     var description = "";
-    cc.log('{');
+    cc.log('obj : {');
     for (var i in obj) {
         description += i + " = " + obj[i] + "\n";
     }

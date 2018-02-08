@@ -9,7 +9,7 @@
 //  - [English] http://www.cocos2d-x.org/docs/editors_and_tools/creator-chapters/scripting/life-cycle-callbacks/index.html
 
 var Utils = require('Utils')
-
+var RoomInfo = require('RoomInfo')
 cc.Class({
     extends: cc.Component,
 
@@ -59,7 +59,9 @@ cc.Class({
     },
 
     start () {
-        
+        // cc.log("RoomInfo.targetName", RoomInfo.targetName);
+        // cc.log(RoomInfo.targetName == '*');
+        // cc.log(RoomInfo.targetName == "*");
     },
 
     onEnterClick() {
@@ -102,6 +104,15 @@ cc.Class({
                     }, function(data) {
                         cc.log("get data");
                         Utils.printObj(data);
+                        RoomInfo.myName = name;
+                        RoomInfo.roomId = room;
+                        RoomInfo.players = [];
+                        for (i = 0; i < data.users.length; i++) {
+                            var playerInfo = {};
+                            playerInfo.name = data.users[i];
+                            RoomInfo.players.push(playerInfo);
+                        }
+                        cc.director.loadScene("chat");
                     });
                 })
             })
